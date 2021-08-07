@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parallex1{
+    width: 100%;
+    height: 400px;
+    background: url('img.jpg');
+    
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallex1 h2{
+    margin: auto;
+    position: relative;
+    left: 50px;
+    color: white;
+    top: 300px;
+    width: 200px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    animation: animate 5s infinite;
+}
+.parallex2{
+    width: 100%;
+    height: 400px;
+    background: url('DSC_0336.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallex2 h2{
+    margin: auto;
+    position: relative;
+    left: 50px;
+    color: white;
+    top: 300px;
+    width: 200px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    animation: animate 5s infinite;
+}
+.parallex3{
+    width: 100%;
+    height: 400px;
+    background: url('DSC_0336.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallex3 h2{
+    margin: auto;
+    position: relative;
+    left: 50px;
+    color: white;
+    top: 300px;
+    width: 200px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    animation: animate 5s infinite;
+}
+.para1{
+    padding: 50px;
+    animation: change 5s infinite;
+    color: floralwhite;
+    font-size: 17px;
+}
+.para2{
+    padding: 50px;
+    background-color: goldenrod;
+    animation: textchange 5s infinite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+.para3{
+    padding: 50px;
+    background-color: olivedrab;
+    color: mintcream;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+@keyframes change{
+    0%{background-color:rgb(230, 193, 139);}
+    30%{background-color: rgb(255, 145, 0);}
+    50%{background-color: ghostwhite;}
+    70%{background-color: hotpink;}
+    100%{background-color: mediumseagreen;}
+}
+@keyframes animate{
+    from{
+        transform: scale(.8);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+@keyframes textchange{
+    
+    0%{color:rgb(78, 94, 72);}
+    30%{color: rgb(67, 170, 162);}
+    50%{color: rgb(3, 3, 3);}
+    70%{color: rgb(185, 19, 102);}
+    100%{color: mediumseagreen;}
+}
