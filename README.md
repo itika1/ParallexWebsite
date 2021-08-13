@@ -1,3 +1,3 @@
 # ParallexWebsite
-# Check out here
+## Check out here
 https://itika1.github.io/ParallexWebsite/
